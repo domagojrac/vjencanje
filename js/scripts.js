@@ -1194,16 +1194,6 @@ var Neela;
                     });
                 });
             };
-
-            if ($(window).innerWidth() >= 751) {
-                $(window).scroll(function () {
-                    animate();
-                });
-
-                animate();
-            } else {
-                $("[data-animation-delay]").addClass("visible");
-            }
         }
     };
 
