@@ -1195,7 +1195,7 @@ var Neela;
                 });
             };
 
-            if ($(window).innerWidth() >= 1) {
+            if ($(window).innerWidth() >= 751) {
                 $(window).scroll(function () {
                     animate();
                 });
